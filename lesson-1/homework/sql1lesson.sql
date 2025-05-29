@@ -26,6 +26,21 @@ SQL Server is created by Microsoft and its name is remaining us it is server for
 SSMS is sql server management studion , its function just display us the sql server which means it makes an interface for sql server it also make easier to work with sql server
 Sql is structured query language it shows sql is just language for datas 
 
+Q7 . Research and explain the different SQL commands: DQL, DML, DDL, 
+Answer 
+DQL- data query language  used to fetch/query data from the database.
+DML - data manipulation language used to manipulate existing data in the database.
+DDL - data definition language used to define or modify database structure 
+DCL - data control language deals with permissions and access control.
+TCL - transaction control language controls transactions, which are groups of SQL statements executed as a unit.
+*/
+-- Q8 . Write a query to insert three records into the Students table.
+insert into Students(StudentID , Name , age) values(1, 'John' , 22  ),
+(2 , 'Mike' , 24) , 
+(3 , 'Alvarez' , 19)
+--Q9 . Restore AdventureWorksDW2022.bak file to your server. (write its steps to submit)
+
+
     
 
  
